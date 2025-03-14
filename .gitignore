@@ -1,3 +1,14 @@
+.env
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+myenv/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -167,8 +178,18 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# Ruff stuff:
-.ruff_cache/
-
 # PyPI configuration file
 .pypirc
+
+# Streamlit cache
+.streamlit/secrets.toml
+.streamlit/secrets.toml.bak
+.streamlit/secrets.toml.bak.2
+nltk_data/
+
+# Ignore all files in the nltk_data directory
+nltk_data/*
+
+# Ignore all files in the nltk_data directory
+nltk_data/*
+    
